@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Crimson+Text&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+}
+
+nav, a, #hero-msg, h1, #hero-msg, h4, .button-box, main, section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body, header, .book, .join, #background, .msg, footer {
+    background-color: #669BBC ;
+    color: black; 
+}
+
+nav a:hover, .book:hover, .join:hover {
+    background-color: #ffb6c1;
+    color: black; 
+}
+
+nav a, .book, .join, footer a {
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.1em
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%; 
+}
+
+
