@@ -1,36 +1,24 @@
 @import url('https://coolors.co/ffa6c8-ffffff');
 
 :root {
-background-color: #ffa6c8
+background-color: #ffa6c8;
 }
-
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 40%;
-  }
-  .box {
-    inline-size: 150px;
-    overflow-wrap: break-word;
-    hyphens: manual;
+h1 a.hover {
+    color: white;
+    background-color: #ffa6c8;
 }
-body {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
+h1, h2, h3 {
     text-align: center;
 }
-img.displayed {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-img, p, h1 {text-align: center;}
-h1 {
+    width: 40%;
+  }
+class.chal {
     text-align: center;
 }
-h1:hover {
-    background-color: #ffa6c8;
-    color: black;
+img {
+    width: 20%;
 }
