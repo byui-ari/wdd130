@@ -259,3 +259,88 @@ nav {
   }
 }
 
+/* Page 2/ About Us Page  */
+
+.aboutus-grid {
+  /* display: grid;  */
+  align-items: center ; 
+  text-align: left;
+  padding-left: 40px;
+  /* grid-template-columns: 1fr 1fr 1fr;  */
+  /* column-gap: 5px; */
+}
+
+ /* .idaho-card, .utha-card, .arizona-card {
+  width: auto; 
+  height: auto; 
+  
+} */
+
+/* p {
+  float: left; 
+  font-size:medium;
+}
+#rafting61_1024 {
+  float: left; 
+  margin: 0 15px 0 0; 
+} */
+
+h1 {
+  text-align: center;
+}
+
+/* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
+
+.accordion {
+  width: 1000px;
+  margin: 0px ;
+  color: black;
+  background-color: #669BBC; 
+  padding: 0px auto; 
+}
+.accordion .container {
+  position: relative;
+  margin: 10px 10px;
+}
+
+/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 20px; 
+  color: black;
+  cursor: pointer; 
+}
+.accordion .label::before {
+  content: ' + ';
+  color: black;
+  position: left;
+  top: 40%;
+  right: -5px;
+  font-size: 25px;
+  transform: translateY(-50%);
+}
+
+.accordion .content {
+  position: relative;
+  background: #669BBC;
+  height: 0;
+  font-size: 17px;
+  text-align:left;
+  width: 1400px;
+  overflow: auto; 
+  transition: 0.5s;
+}
+
+.accordion .container.active .content {
+  height: 100px;
+}
+
+.accordion .container.active .label::before {
+  content: ' - ';
+  font-size: 30px;
+}
+
+
+
