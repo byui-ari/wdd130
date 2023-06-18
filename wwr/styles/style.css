@@ -268,26 +268,14 @@ nav {
   width: 1200px;
 }
 
- /* .idaho-card, .utha-card, .arizona-card {
-  width: auto; 
-  height: auto; 
-  
-} */
-
 p {
   text-align: left; 
   font-size:medium;
 }
-  /* #rafting61_1024 {
-  float: left; 
-  margin: 0 15px 0 0; 
-} */ */
 
 h1 {
   text-align: center;
 }
-
-/* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
 
 .accordion {
   width: 1000px;
@@ -300,8 +288,6 @@ h1 {
   position: relative;
   margin: 10px 10px;
 }
-
-/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
 
 .accordion .label {
   position: relative;
@@ -339,6 +325,5 @@ h1 {
   content: ' - ';
   font-size: 30px;
 }
-
 
 
