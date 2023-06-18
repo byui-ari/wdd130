@@ -262,12 +262,10 @@ nav {
 /* Page 2/ About Us Page  */
 
 .aboutus-grid {
-  /* display: grid;  */
   align-items: center ; 
   text-align: left;
   padding-left: 40px;
-  /* grid-template-columns: 1fr 1fr 1fr;  */
-  /* column-gap: 5px; */
+  width: 1200px;
 }
 
  /* .idaho-card, .utha-card, .arizona-card {
@@ -276,14 +274,14 @@ nav {
   
 } */
 
-/* p {
-  float: left; 
+p {
+  text-align: left; 
   font-size:medium;
 }
-#rafting61_1024 {
+  /* #rafting61_1024 {
   float: left; 
   margin: 0 15px 0 0; 
-} */
+} */ */
 
 h1 {
   text-align: center;
