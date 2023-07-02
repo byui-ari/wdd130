@@ -89,7 +89,7 @@ header {
   nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-  }
+  } 
   footer {
     font-size: 16px;
     margin-top: 200px ;
