@@ -116,8 +116,9 @@ body {
   font-family: "Lora", "Lato", "georgia" ;
 } 
 #hero-img {
-  width: 1518px ; 
-  height: 800px; 
+  /* width: 1518px ; 
+  height: 800px;  */
+  width: 100%; 
 }
 #mh-img {
   display: block;
@@ -132,8 +133,6 @@ h5 {
   text-align: center; 
   font-size: x-large;
 }
-
-
 
 .accordion {
   width: 1000px;
@@ -188,3 +187,7 @@ h2, p {
   padding-left: 10px;
 }
 
+h4 {
+  text-align: center; 
+  font-size: 28px;
+}
